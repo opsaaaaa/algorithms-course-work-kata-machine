@@ -24,4 +24,9 @@ test("stack", function () {
     expect(list.length).toEqual(1);
 
     //yayaya
+      
+    list.pop()
+    list.pop()
+    list.pop()
+    expect(list.length).toEqual(0)
 });
