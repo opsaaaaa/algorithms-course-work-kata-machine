@@ -1,3 +1,16 @@
+/*
+
+You have two crystal balls and you're gaol is to find the minimum height you can drop one from and have it break.
+
+The height is represented as and array of ordered booleans.
+[false, false, true, true]
+:e
+When you query a true value, a crystal ball breaks.
+You only have two checks.
+
+*/
+
+
 export default function two_crystal_balls(breaks: boolean[]): number {
   
   const jump = Math.floor(Math.sqrt(breaks.length))
